@@ -163,8 +163,10 @@ ul.navlist{
 
 .account-page{
     padding: 50px 0;
-    background: radial-gradient(#fff,#ffd6d6);  
+    background: radial-gradient(#fff,#e9d750);  
     display: flex;
+    align-items: center;
+    padding-left: 540px;
 }
 
 .account-page .row{
@@ -177,7 +179,7 @@ ul.navlist{
 }
 
 .account-page .row .form-container{
-    background: #fff;
+    background: #f4f4cd;
     width: 300px;
     height: 400px;
     position: relative;
@@ -192,7 +194,7 @@ ul.navlist{
 .form-container span{
     font-weight: bold;
     padding: 0 10px;
-    color: #333232;
+    color: #333131;
     cursor: pointer;
     width: 100px;
     display: inline-block;
@@ -219,7 +221,7 @@ form input{
     height: 30px;
     margin: 10px 0;
     padding: 0 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #232323;
 }
 
 form .btn{
