@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar{
+    height: .1rem;
+    width: .5rem;
+}
+
+#hero{
+    padding-left: 520px;
+    margin-right: auto;
+    background-color: #aa9539;
+}
+
+::-webkit-scrollbar-track{
+    background-image: #67ccff;
+}
+
+::-webkit-sscrollbar-thumb{
+    background-color: #194eb9;
+    border-radius: 5rem;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background: rgb(230, 223, 234);
+    color: #2b2f39;
+    overflow-x: hidden;
+    border-radius: 10px;
+}
+
+.section-m1 {
+    margin: 60px 0;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #1d002c;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+header{
+    padding: 2px 10%;
+    position: sticky;
+    background-color:rgb(232, 210, 159);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1001;
+    border-radius: 0px;
+}
+
+#ss h1{
+    position:absolute;
+    padding-left: 600px;
+    padding-bottom: 500px;
+}
+
+
+ul.navlist{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navlist li{
+    margin-left: 1.5rem;
+    align-items: center;
+
+}
+
+.navlist li a{
+    color: #433d3d;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 5px 12px;
+    border: 2px solid rgb(232, 210, 159);
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+
+.navlist li a:hover,
+.navlist li a.active{
+    box-shadow: 0 0 1rem #f4d755;
+    background: #f4d755;
+    color: #1d002c;
+}
+
+
+#here {
+    background-image: url("");
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(232, 210, 159);
+    background-size: cover;
+    background-position: top 5% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 0px;
+}
+#here h4{
+    padding-bottom: 15px;
+    font-size: 140px;
+
+    padding-left: 20px;
+    color:#ffffff;
+}
+
+#here h2{
+    font-size: 42px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+#here h1{
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    font-size: 75px;
+    margin-left: 0px;
+    font-style: italic;
+}
+
+#here p{
+    font-size: 20px;
+    color:#ffffff;
+    margin-left: 20px;
+}
+
+#here button{
+    background-size: 80%;
+    background-color: rgb(79, 80, 81);
+    color: rgb(212, 212, 212);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 16px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);  
+    display: flex;
+}
+
+.account-page .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 250px;
+    margin-bottom: 60px;
+}
+
+.account-page .row .form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #333232;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-container .form-bttn{
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+form{
+    margin-top: 10px;
+}
+
+form input{
+    width: 100%;;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn{
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    color: #000000;
+    background-color: #ff8912;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+form .btn:focus{
+    outline: none;
+}
+
+#LoginForm{
+    left: -300px;
+}
+
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
