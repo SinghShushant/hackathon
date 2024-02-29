@@ -14,8 +14,15 @@
     width: .5rem;
 }
 
+#here .image {
+    display: inline;
+    width: 70%;
+    height: 1%;
+    padding-left: 40%;
+}
+
 #hero{
-    padding-left: 520px;
+    padding-left: 480px;
     margin-right: auto;
     background-color: #aa9539;
 }
@@ -107,10 +114,10 @@ ul.navlist{
 
 
 #here {
-    background-image: url("");
+    background-image: url("img/bg.jpeg");
     height: 100vh;
     width: 100%;
-    background-color: rgb(232, 210, 159);
+    filter: blur(1.5px);
     background-size: cover;
     background-position: top 5% right 0;
     padding: 0 80px;
@@ -119,16 +126,26 @@ ul.navlist{
     align-items: flex-start;
     justify-content: center;
     border-radius: 0px;
+
 }
-#here h4{
+
+.bg-image{
+    background-image: url(img/bg.jpeg);
+    filter: blur(8px);
+}
+
+.bg-text{
+
+}
+#here .bg-text h4{
     padding-bottom: 15px;
     font-size: 140px;
-
+    display: inline;
     padding-left: 20px;
     color:#ffffff;
 }
 
-#here h2{
+.bg-text h2{
     font-size: 42px;
     color: #ffffff;
     margin-left: 20px;
@@ -136,10 +153,11 @@ ul.navlist{
 
 #here h1{
     color: rgb(255, 255, 255);
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 75px;
     margin-left: 0px;
     font-style: italic;
+    display: inline;
 }
 
 #here p{
@@ -260,3 +278,67 @@ form a{
     transform: translateX(100px);
     transition: transform 1s;
 }
+
+footer{
+    display: flex;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+footer.logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+    color: #222;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+/* w3 schools*/
+
